@@ -1,0 +1,86 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #67b26f, #4ca2cd);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-container {
+  background-color: white;
+  padding: 30px 40px;
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+}
+
+.login-form h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  transition: border 0.3s ease;
+}
+
+.input-group input:focus {
+  border-color: #4ca2cd;
+  outline: none;
+}
+
+button {
+  width: 100%;
+  background-color: #4ca2cd;
+  color: white;
+  padding: 12px;
+  border: none;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #3b8eb5;
+}
+
+.note {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+}
+
+.note a {
+  color: #4ca2cd;
+  text-decoration: none;
+}
+
+.note a:hover {
+  text-decoration: underline;
+}

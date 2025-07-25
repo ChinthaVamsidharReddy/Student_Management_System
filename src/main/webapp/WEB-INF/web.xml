@@ -1,0 +1,13 @@
+<web-app>
+
+    <servlet>
+        <servlet-name>StudentLogin</servlet-name>
+        <servlet-class>com.studentmanagement.sevlet.StudentLogin</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>StudentLogin</servlet-name>
+        <url-pattern>/ser</url-pattern>
+    </servlet-mapping>
+
+</web-app>
