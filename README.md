@@ -105,7 +105,7 @@ Feel free to **clone** this repository and explore the project.
 If you would like to **improve or add new features**, you're welcome to:
 1. **Fork** the repository
 2. **Clone** your fork
-3. git clone https://github.com/your-username/Student_Management_System.git 
+3. git clone https://github.com/ChinthaVamsidharReddy/Student_Management_System.git 
 4. git push origin main 
 5. git push -u origin <new_branch_name>
 6. git push
